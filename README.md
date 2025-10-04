@@ -2,6 +2,8 @@
 
 Este é um dashboard interativo para análise de performance de vendas, desenvolvido com Dash e Plotly. A aplicação permite visualizar métricas de vendas, filtrar dados por equipe e por período, e analisar o desempenho de consultores e o retorno de diferentes meios de propaganda.
 
+<img width="1046" height="1022" alt="Portfolio Projects" src="https://github.com/user-attachments/assets/4d3efe4b-03ee-4397-86e1-9f20c6fdbc99" />
+
 ---
 
 ## ✨ Funcionalidades
