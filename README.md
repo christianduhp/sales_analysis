@@ -33,7 +33,7 @@ Siga os passos abaixo para executar a aplicação localmente.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/christianduhp/sales_analysis.git](https://github.com/christianduhp/sales_analysis.git)
+    git clone [https://github.com/christianduhp/sales-analysis.git](https://github.com/christianduhp/sales-analysis.git)
     cd sales_analysis
     ```
 
