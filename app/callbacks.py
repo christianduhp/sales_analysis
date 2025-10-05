@@ -1,11 +1,11 @@
-from dash import Input, Output, html
+from dash import Input, Output
 from dash_bootstrap_templates import ThemeSwitchAIO
 import plotly.express as px
 import plotly.graph_objects as go
 
 from app import app
-from utils import filter_data, convert_to_text
-from styles import TEMPLATE_THEME1, TEMPLATE_THEME2, MAIN_GRAPH_CONFIG
+from app.utils import filter_data
+from app.styles import TEMPLATE_THEME1, TEMPLATE_THEME2, MAIN_GRAPH_CONFIG
 
 # ======== Callbacks ========== #
 

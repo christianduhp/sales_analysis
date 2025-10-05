@@ -3,12 +3,12 @@ import dash_bootstrap_components as dbc
 from dash_bootstrap_templates import ThemeSwitchAIO
 
 from app import app
-from styles import (
+from app.styles import (
     PLOTLY_CONFIG,
     URL_THEME1,
     URL_THEME2,
 )
-from utils import options_month, options_team
+from app.utils import options_month, options_team
 
 
 # Componente da Barra Lateral (Sidebar)

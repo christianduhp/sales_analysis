@@ -54,23 +54,3 @@ def filter_data(month, team):
     if team != 0:
         df_filtered = df_filtered[df_filtered["Equipe"] == team]
     return df_filtered
-
-
-def convert_to_text(month):
-    """Converte o número do mês para o nome por extenso."""
-    month_dict = {
-        0: "Ano Todo",
-        1: "Janeiro",
-        2: "Fevereiro",
-        3: "Março",
-        4: "Abril",
-        5: "Maio",
-        6: "Junho",
-        7: "Julho",
-        8: "Agosto",
-        9: "Setembro",
-        10: "Outubro",
-        11: "Novembro",
-        12: "Dezembro",
-    }
-    return month_dict.get(month, "")

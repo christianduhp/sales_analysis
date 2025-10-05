@@ -7,3 +7,9 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, FONT_AWESO
 app.scripts.config.serve_locally = True
 server = app.server
 app.title = "Sales Analysis"
+
+
+def init_app():
+    from . import layouts
+    from . import callbacks
+    
