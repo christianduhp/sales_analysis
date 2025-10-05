@@ -82,12 +82,13 @@ O projeto está organizado da seguinte forma:
 ├── app/
 │   ├── __init__.py      # Inicialização da aplicação Dash.
 │   ├── layouts.py       # Define a estrutura visual e o layout do dashboard.
+│   ├── styles.py        # Variáveis de estilo e configurações dos gráficos.
+│   ├── utils.py         # Lógica de processamento dos dados.
 │   └── callbacks.py     # Contém a lógica de interatividade dos componentes.
 ├── .gitignore           # Especifica os arquivos a serem ignorados pelo Git.
 ├── dataset.csv          # Conjunto de dados utilizado na análise.
 ├── main.py              # Ponto de entrada para executar a aplicação.
 ├── README.md            # Documentação do projeto.
 ├── requirements.txt     # Lista de dependências Python.
-└── styles.py            # Variáveis de estilo e configurações dos gráficos.
 ```
 
